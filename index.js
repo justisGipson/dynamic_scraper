@@ -25,8 +25,8 @@ let getData = html => {
     const $ = cheerio.load(html)
     $('div._1HmYoV._35HD7C:nth-child(2) div.bhgxx2.col-12-12').each((row, raw_element) => {
         $(raw_element).find('div div div').each((i, elem) => {
-            let title = $(elem).find('div div a:nth-child(2').text();
-            let link = $(elem).find('div div a:nth-child(2').attr('href');
+            let title = $(elem).find('div div a:nth-child(2)').text();
+            let link = $(elem).find('div div a:nth-child(2)').attr('href');
             if (title) {
                 data.push({
                     title: title,
