@@ -1,0 +1,28 @@
+{
+  "name": "dynamic_scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justisGipson/dynamic_scraper.git"
+  },
+  "keywords": [
+    "dynamic",
+    "scraper",
+    "node"
+  ],
+  "author": "justisGipson <justis710@gmail.com> (justisgipson.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/justisGipson/dynamic_scraper/issues"
+  },
+  "homepage": "https://github.com/justisGipson/dynamic_scraper#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "nightmare": "^3.0.2"
+  }
+}
